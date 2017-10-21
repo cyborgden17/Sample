@@ -18,3 +18,9 @@ Route::get('/', function () {
 Route::get('foo', function(){
 	return "Hello World!";
 });
+
+Route::get('/save', function(){
+	return "Saving files..";
+	
+	
+});
