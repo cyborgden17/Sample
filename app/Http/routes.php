@@ -22,5 +22,8 @@ Route::get('foo', function(){
 Route::get('/save', function(){
 	return "Saving files..";
 	
-	
+});
+
+Route::post('/gets',function(){
+	render("sample.html", args);
 });
